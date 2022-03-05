@@ -1,19 +1,31 @@
 import React from 'react';
 import './topbar.scss';
-import PersonIcon from '@mui/icons-material/Person';
+// import PersonIcon from '@mui/icons-material/Person';
 import MailIcon from '@mui/icons-material/Mail';
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">genius.</a>
+          <a href="#intro" className="logo">bonadiman.</a>
           <div className="itemContainer">
-            <PersonIcon className="icon" />
-            <span>(95) 99132-7294</span>
+            <a
+              href="https://github.com/Humberto-Bonadiman"
+              className="logos"
+            >
+              <GitHubIcon className="icon" />
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a
+              href="https://www.linkedin.com/in/humberto-bonadiman"
+              className="logos"
+            >
+              <LinkedInIcon className="icon" />
+            </a>
           </div>
           <div className="itemContainer">
             <MailIcon className="icon" />
