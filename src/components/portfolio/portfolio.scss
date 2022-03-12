@@ -32,7 +32,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 70%;
+    width: 100%;
 
     @include mobile{
       width: 100%;
@@ -45,12 +45,13 @@
       color: white;
       cursor: pointer;
       display: flex;
-      height: 150px;
+      height: 310px;
       justify-content: center;
       margin: 10px 20px;
+      overflow: hidden;
       position: relative;
       transition: all 0.5s ease;
-      width: 220px;
+      width: 400px;
 
       @include mobile{
         height: 100px;
@@ -63,19 +64,22 @@
         position: absolute;
       }
 
-      img{
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-      }
-
-      &:hover{
-        background-color: $mainColor;
+      a{
 
         img{
-          opacity: 0.2;
-          z-index: 0;
+          /* object-fit: cover; */
+          height: 100%;
+          width: 100%;
+          z-index: 1;
+        }
+  
+        &:hover{
+          background-color: $mainColor;
+  
+          img{
+            opacity: 0.2;
+            z-index: 0;
+          }
         }
       }
     }

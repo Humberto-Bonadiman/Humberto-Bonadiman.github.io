@@ -2,58 +2,58 @@ import React, { useState, useEffect } from 'react';
 import PortfolioList from '../PortfolioList/portfolioList';
 import './portfolio.scss';
 import {
-  featuredPortfolio,
-  webAppPortfolio,
-  mobileAppPotfolio,
-  designPortfolio,
-  brandingPortfolio,
+  recipeApp,
+  trybetunes,
+  trybewallet,
+  blogsAPI,
+  pixelArts,
 } from '../../data';
 
 function Portfolio() {
-  const [selected, setSelected] = useState('featured');
+  const [selected, setSelected] = useState('recipeApp');
   const [data, setData] = useState([]);
   useEffect(() => {
     switch(selected){
-      case 'featured':
-        setData(featuredPortfolio);
+      case 'recipeApp':
+        setData(recipeApp);
         break;
-      case 'web':
-        setData(webAppPortfolio);
+      case 'trybetunes':
+        setData(trybetunes);
         break;
-      case 'mobile':
-        setData(mobileAppPotfolio);
+      case 'trybewallet':
+        setData(trybewallet);
         break;
-      case 'design':
-        setData(designPortfolio);
+      case 'blogsAPI':
+        setData(blogsAPI);
         break;
       case 'branding':
-        setData(brandingPortfolio);
+        setData(pixelArts);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(pixelArts);
     }
   }, [selected])
 
   const list = [
     {
-      id: 'featured',
-      title: 'Featured',
+      id: 'recipeApp',
+      title: 'Recipe App',
     },
     {
-      id: 'web',
-      title: 'Web App',
+      id: 'trybetunes',
+      title: 'Trybetunes',
     },
     {
-      id: 'mobile',
-      title: 'Mobile App',
+      id: 'trybewallet',
+      title: 'Trybewallet',
     },
     {
-      id: 'design',
-      title: 'Design',
+      id: 'blogsAPI',
+      title: 'Blogs-API',
     },
     {
-      id: 'branding',
-      title: 'Branding',
+      id: 'pixelArts',
+      title: 'Pixel Arts',
     }
   ]
   return (
@@ -73,7 +73,7 @@ function Portfolio() {
       <div className="container">
         {data.map((item) => (
           <div className="item">
-            <img src={item.img} alt={item.title} />
+            <a target='_blank' rel="noreferrer" href={item.link}><img src={item.img} alt={item.title} /></a>
             <h3>{item.title}</h3>
           </div>
         ))}

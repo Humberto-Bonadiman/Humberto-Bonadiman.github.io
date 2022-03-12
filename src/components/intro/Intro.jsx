@@ -29,7 +29,7 @@ function Intro() {
           <h1>Humberto Bonadiman</h1>
           <h3>Full Stack <span ref={textRef}></span></h3>
         </div>
-        <a href="#portfolio">
+        <a href="#aboutMe">
           <img src={ down } alt="down arrow"/>
         </a>
       </div>
