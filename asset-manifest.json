@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b55c1119.css",
-    "main.js": "/static/js/main.7c173198.js",
+    "main.css": "/static/css/main.3c0312ad.css",
+    "main.js": "/static/js/main.b37cad76.js",
     "static/media/App-Receitas.png": "/static/media/App-Receitas.9670f88879f0d4dfb30e.png",
     "static/media/Pixel-Arts.png": "/static/media/Pixel-Arts.a4994931b8017ab5ad2c.png",
     "static/media/shake.png": "/static/media/shake.34d3bb94b00b018e4753.png",
@@ -12,11 +12,11 @@
     "static/media/Trybewallet.png": "/static/media/Trybewallet.7148d228d443e07d236c.png",
     "static/media/down.png": "/static/media/down.74cf028da7417e59bf99.png",
     "index.html": "/index.html",
-    "main.b55c1119.css.map": "/static/css/main.b55c1119.css.map",
-    "main.7c173198.js.map": "/static/js/main.7c173198.js.map"
+    "main.3c0312ad.css.map": "/static/css/main.3c0312ad.css.map",
+    "main.b37cad76.js.map": "/static/js/main.b37cad76.js.map"
   },
   "entrypoints": [
-    "static/css/main.b55c1119.css",
-    "static/js/main.7c173198.js"
+    "static/css/main.3c0312ad.css",
+    "static/js/main.b37cad76.js"
   ]
 }
