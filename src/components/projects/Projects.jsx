@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PortfolioList from '../PortfolioList/portfolioList';
-import './portfolio.scss';
+import './projects.scss';
 import {
   recipeApp,
   trybetunes,
@@ -9,7 +9,7 @@ import {
   pixelArts,
 } from '../../data';
 
-function Portfolio() {
+function Projects() {
   const [selected, setSelected] = useState('recipeApp');
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -57,8 +57,8 @@ function Portfolio() {
     }
   ]
   return (
-    <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+    <div className="projects" id="projects">
+      <h1>Projects</h1>
       <ul>
         {list.map(item => (
         <
@@ -82,4 +82,4 @@ function Portfolio() {
   )
 };
 
-export default Portfolio;
+export default Projects;
