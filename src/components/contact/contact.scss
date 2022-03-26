@@ -5,6 +5,7 @@
   display: flex;
 
   @include mobile{
+    align-items: center;
     flex-direction: column;
   }
 
@@ -22,7 +23,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: centere;
+    justify-content: center;
 
     h2{
       font-size: 30px;
@@ -35,6 +36,11 @@
       justify-content: space-around;
       height: 70%;
       width: 70%;
+
+      @include mobile{
+        height: 100%;
+        width: 100%;
+      }
 
       input{
         font-size: 14px;
