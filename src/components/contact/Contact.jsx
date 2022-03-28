@@ -18,7 +18,7 @@ function Contact() {
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="E-mail" />
           <textarea placeholder="Message"></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" post="">Send</button>
           {message && <span>Thanks, I'll reply as soon as possible</span>}
         </form>
       </div>

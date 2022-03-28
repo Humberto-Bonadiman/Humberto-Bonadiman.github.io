@@ -1,7 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
-// import Works from "./components/works/Works";
 import AboutMe from "./components/aboutMe/AboutMe";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
@@ -18,7 +17,6 @@ function App() {
         <Intro />
         <AboutMe />
         <Projects />
-        {/* <Works /> */}
         <Contact />
       </div>
     </div>

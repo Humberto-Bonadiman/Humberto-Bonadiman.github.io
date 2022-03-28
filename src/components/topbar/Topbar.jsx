@@ -13,6 +13,8 @@ function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">bonadiman.</a>
           <div className="itemContainer">
             <a
+              target='_blank'
+              rel="noreferrer" 
               href="https://github.com/Humberto-Bonadiman"
               className="logos"
             >
@@ -21,6 +23,8 @@ function Topbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <a
+              target='_blank'
+              rel="noreferrer" 
               href="https://www.linkedin.com/in/humberto-bonadiman"
               className="logos"
             >

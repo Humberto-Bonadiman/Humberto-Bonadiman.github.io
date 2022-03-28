@@ -72,9 +72,16 @@ function Projects() {
       </ul>
       <div className="container">
         {data.map((item) => (
-          <div className="item">
-            <a target='_blank' rel="noreferrer" href={item.link}><img src={item.img} alt={item.title} /></a>
-            <h3>{item.title}</h3>
+          <div className="itens">
+            <div className="item">
+              <a target='_blank' rel="noreferrer" href={item.link}><img src={item.img} alt={item.title} /></a>
+              <h3>{item.title}</h3>
+            </div>
+            <div className="about-it">
+              <h3>{item.title}</h3>
+              <p>{item.information}</p>
+              <a target='_blank' rel="noreferrer" href={item.repository}><p className="link">Repository</p></a>
+            </div>
           </div>
         ))}
       </div>

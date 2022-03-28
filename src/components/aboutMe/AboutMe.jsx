@@ -11,13 +11,13 @@ function AboutMe() {
           <div className="card">
             <div className="center">
                 <p>
-                  My name is Humberto, I'm 27 years old, today I'm addicted to the practice of physical exercises, lover of books on personal development and I'm studying Web Development with a focus on becoming a Full-Stack developer at Trybe.
+                  My name is <span>Humberto</span>, I'm 27 years old, and I'm studying Web Development with a focus on becoming a <span>Full-Stack Developer</span> at Trybe.
                 </p>
                 <p>
-                  I have a degree in Veterinary Medicine, but I decided to make a career transition in search of better opportunities and because I see in programming the chance to automate tasks, speeding up processes and leading people to focus on what they are really good at, and also for the chance to solve problems, creating solutions that help others.
+                  I have a degree in Veterinary Medicine, but I decided to make a career transition because I see in programming the chance to automate tasks, leading people to focus on what they are really good at.
                 </p>
                 <p>
-                  Right now I'm close to becoming a Full-Stack Web developer and with that, I'm looking for opportunities to start my career as a developer, and acquire even more knowledge in the technology area.
+                  Right now I'm looking for opportunities to start my career as a developer, and acquire even more knowledge in the technology area.
                 </p>
               </div>
             </div>
