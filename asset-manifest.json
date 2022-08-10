@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbce26f5.css",
-    "main.js": "/static/js/main.569ca563.js",
+    "main.css": "/static/css/main.b9aaae87.css",
+    "main.js": "/static/js/main.b3d02463.js",
     "static/media/App-Receitas.png": "/static/media/App-Receitas.9670f88879f0d4dfb30e.png",
     "static/media/Pixel-Arts.png": "/static/media/Pixel-Arts.a4994931b8017ab5ad2c.png",
-    "static/media/shake.png": "/static/media/shake.34d3bb94b00b018e4753.png",
+    "static/media/DroneFeeder.png": "/static/media/DroneFeeder.06755fb0399511287315.png",
+    "static/media/Blogs-API.png": "/static/media/Blogs-API.1dc4fb76d3a98000abba.png",
     "static/media/Trybetunes.png": "/static/media/Trybetunes.b9e15b95e2ec866666c2.png",
-    "static/media/Blogs-API.png": "/static/media/Blogs-API.f0cff3ba1445430ed086.png",
     "static/media/emoji.png": "/static/media/emoji.16e5889d899bc3470677.png",
     "static/media/hello-emoji.png": "/static/media/hello-emoji.a6d5fad712e004b70131.png",
-    "static/media/Trybewallet.png": "/static/media/Trybewallet.7148d228d443e07d236c.png",
     "static/media/down.png": "/static/media/down.74cf028da7417e59bf99.png",
     "index.html": "/index.html",
-    "main.dbce26f5.css.map": "/static/css/main.dbce26f5.css.map",
-    "main.569ca563.js.map": "/static/js/main.569ca563.js.map"
+    "main.b9aaae87.css.map": "/static/css/main.b9aaae87.css.map",
+    "main.b3d02463.js.map": "/static/js/main.b3d02463.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbce26f5.css",
-    "static/js/main.569ca563.js"
+    "static/css/main.b9aaae87.css",
+    "static/js/main.b3d02463.js"
   ]
 }
