@@ -4,7 +4,7 @@ import './projects.scss';
 import {
   recipeApp,
   trybetunes,
-  trybewallet,
+  droneFeeder,
   blogsAPI,
   pixelArts,
 } from '../../data';
@@ -20,8 +20,8 @@ function Projects() {
       case 'trybetunes':
         setData(trybetunes);
         break;
-      case 'trybewallet':
-        setData(trybewallet);
+      case 'droneFeeder':
+        setData(droneFeeder);
         break;
       case 'blogsAPI':
         setData(blogsAPI);
@@ -44,8 +44,8 @@ function Projects() {
       title: 'Trybetunes',
     },
     {
-      id: 'trybewallet',
-      title: 'Trybewallet',
+      id: 'droneFeeder',
+      title: 'Drone-Feeder',
     },
     {
       id: 'blogsAPI',

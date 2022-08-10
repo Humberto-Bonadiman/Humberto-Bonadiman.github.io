@@ -11,7 +11,7 @@ function AboutMe() {
           <div className="card">
             <div className="center">
                 <p>
-                  My name is <span>Humberto</span>, I'm 27 years old, and I'm studying Web Development with a focus on becoming a <span>Full-Stack Developer</span> at Trybe.
+                  My name is <span>Humberto</span>, I'm 28 years old, and I'm a <span>Full-Stack Developer</span>.
                 </p>
                 <p>
                   I have a degree in Veterinary Medicine, but I decided to make a career transition because I see in programming the chance to automate tasks, leading people to focus on what they are really good at.

@@ -2,7 +2,6 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
 import AboutMe from "./components/aboutMe/AboutMe";
-import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import './app.scss';
 import { useState } from "react";
@@ -17,7 +16,6 @@ function App() {
         <Intro />
         <AboutMe />
         <Projects />
-        <Contact />
       </div>
     </div>
   );

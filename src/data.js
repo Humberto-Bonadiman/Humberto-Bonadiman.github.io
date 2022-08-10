@@ -1,7 +1,7 @@
 import AppReceitas from './project-images/App-Receitas.png';
 import PixelArts from './project-images/Pixel-Arts.png';
 import Trybetunes from './project-images/Trybetunes.png';
-import Trybewallet  from './project-images/Trybewallet.png';
+import DroneFeeder  from './project-images/DroneFeeder.png';
 import BlogsAPI from './project-images/Blogs-API.png';
 
 export const recipeApp = [
@@ -26,14 +26,14 @@ export const trybetunes = [
   }
 ];
 
-export const trybewallet = [
+export const droneFeeder = [
   {
     id: 1,
-    title: 'Trybewallet',
-    img: Trybewallet,
-    link: 'https://humberto-bonadiman.github.io/Project-trybewallet/',
-    information: 'In this project I developed an expense control wallet with a currency converter using Redux and CSS. In it, the user can edit an expense, view expense tables and convert them to a currency of their choice.',
-    repository: 'https://github.com/Humberto-Bonadiman/Project-trybewallet',
+    title: 'Drone Feeder',
+    img: DroneFeeder,
+    link: 'https://github.com/Humberto-Bonadiman/Drone-Feeder',
+    information: 'In this project we built the back-end with Java using Spring-boot that collects information from drones and adds it to the MySQL database.',
+    repository: 'https://github.com/Humberto-Bonadiman/Drone-Feeder',
   }
 ];
 
